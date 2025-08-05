@@ -26,7 +26,7 @@ GOOGLE_API_KEY = 'AIzaSyDsfHwAB8GKbmiZu8n40d3M6n0ZtsCzwcg'
 OCM_API_KEY = "d1f80a51-a153-4483-916e-e5b56e806ed1"
 OSRM_URL = "http://router.project-osrm.org/route/v1/driving"
 OCM_API_KEY_1 = "6026746e-34b3-43bf-af62-2b4f91ec9a77"
-client = openai.OpenAI(api_key="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")
+openai.api_key = "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"
 # EV Database
 EV_DATABASE = {
     "Tata Nexon EV": {"make": "Tata", "model": "Nexon EV", "electric_range": 312},
